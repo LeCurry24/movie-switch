@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bulma@1.0.0/css/bulma.min.css">
+    <link rel="stylesheet" href="/css/index.css">
+    <title>Document</title>
+</head>
+<body>
+    <main class="main-body">
+        <div class="left-side">
+            <button class="btn-up"></button>
+            <button class="btn-right"></button>
+            <button class="btn-down"></button>
+            <button class="btn-left"></button>
+            <button class="button-wheel"></button>
+        </div>
+            <div class='gameboy-body'>                
+                <div class='gameboy-screen'>
+                    <form id="searchMovie" class="form">
+                        <label class="input">Find Your Movie:
+                            <input type="text" placeholder="movies!" id="movieNames" class="search-bar">
+                        </label>
+                        <div >
+                            <h2 id="movieTitle"></h2>
+                            <h2 id="movieRated"></h2>
+                            <p id="Ratings"></p>
+                            <img id="movieImg">
+                            <main id="movie"></main> 
+                        </div>             
+                        <button type="submit" class="button is-link is-outlined">searchMovie</button>
+                    </div>
+                </form>               
+            </div>
+            <div class="right-side">
+                <button class="button-A">A</button>
+                <button class="button-B">B</button>
+                <button class="button-X">X</button>
+                <button class="button-Y">Y</button>
+                <button class="btn-wheel"></button>
+            </div>
+        </main>
+    <script src="/js/main.js"></script>
+</body>
+</html>
