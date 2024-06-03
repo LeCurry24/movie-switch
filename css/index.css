@@ -78,8 +78,10 @@
     margin: auto;
     width: 500px;
     height: 300px;
-    background: darkgray;
-    
+    background: darkslateblue;
+    background-image: url(../joshua-fernandez-qIwq5UAGi5s-unsplash.jpg);
+    background-size: cover;
+    box-shadow: 0 0 20px -6px white inset;
 }
 
 .form{
