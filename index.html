@@ -5,7 +5,8 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bulma@1.0.0/css/bulma.min.css">
     <link rel="stylesheet" href="/css/index.css">
-    <title>Document</title>
+    <link rel="stylesheet" href="style.css">
+    <title>movieSwitch</title>
 </head>
 <body>
     <main class="main-body">
@@ -18,17 +19,26 @@
         </div>
             <div class='gameboy-body'>                
                 <div class='gameboy-screen'>
+                    <div class="wrapper">
+                        <div class="single-card">
+                            <main id="movie">
+                                <div class="front">
+                                    <img id="movieImg" class="movieImg">             
+                                </div>
+                                <div class="back">
+                                    <div class="content">
+                                        <h2 id="movieTitle"></h2>
+                                        <h2 id="movieRated"></h2>
+                                        <p id="Ratings"></p>
+                                    </div>
+                                </div>
+                            </main> 
+                        </div>
+                    </div>
                     <form id="searchMovie" class="form">
                         <label class="input">Find Your Movie:
                             <input type="text" placeholder="movies!" id="movieNames" class="search-bar">
                         </label>
-                        <div >
-                            <h2 id="movieTitle"></h2>
-                            <h2 id="movieRated"></h2>
-                            <p id="Ratings"></p>
-                            <img id="movieImg">
-                            <main id="movie"></main> 
-                        </div>             
                         <button type="submit" class="button is-link is-outlined">searchMovie</button>
                     </div>
                 </form>               

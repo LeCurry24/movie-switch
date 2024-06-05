@@ -36,9 +36,9 @@ function showMovie(movie) {
     moviePoster.alt = movie.Title;
     
     const moviesDisplay = document.querySelector('#movie');
+    moviesDisplay.appendChild(moviePoster);
     moviesDisplay.appendChild(movieName);
     moviesDisplay.appendChild(movieRate);
-    moviesDisplay.appendChild(moviePoster);
     
     movie.Ratings.map(function (rating) {
         const movieRating = document.getElementById('Ratings');

@@ -1,3 +1,6 @@
+main{
+    position: relative;
+}
 .main-body{
     background-color: purple;
     display: flex;
@@ -72,9 +75,8 @@
 }
 
 .gameboy-screen{
-    display: grid;
-    grid-template-columns: 40% 0% 20% 20% 20%;
-    grid-template-rows: 20% 0% 40% 20% 19%;
+    display: flex;
+    align-items: center;
     margin: auto;
     width: 500px;
     height: 300px;
@@ -89,6 +91,7 @@
     justify-content: center;
     align-items: center;
     height: 178%;
+    margin: auto;
     
 }
 
@@ -158,4 +161,6 @@
     border-radius: 30px;
     box-shadow: 0 0 20px black;
 }
+
+
 
